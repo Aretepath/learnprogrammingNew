@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BankManagementSoftware/BankManagementSoftware.iml" filepath="$PROJECT_DIR$/BankManagementSoftware/BankManagementSoftware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BarkingDog/BarkingDog.iml" filepath="$PROJECT_DIR$/BarkingDog/BarkingDog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/ByteShortIntLong/ByteShortIntLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharAndBoolean/CharAndBoolean.iml" filepath="$PROJECT_DIR$/CharAndBoolean/CharAndBoolean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeBlocksIfThenElse/CodeBlocksIfThenElse.iml" filepath="$PROJECT_DIR$/CodeBlocksIfThenElse/CodeBlocksIfThenElse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DigitalClock/DigitalClock.iml" filepath="$PROJECT_DIR$/DigitalClock/DigitalClock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" filepath="$PROJECT_DIR$/FloatAndDouble/FloatAndDouble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunProject/FunProject.iml" filepath="$PROJECT_DIR$/FunProject/FunProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MegaBytes Converter Challenge/MegaBytes Converter Challenge.iml" filepath="$PROJECT_DIR$/MegaBytes Converter Challenge/MegaBytes Converter Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodChallenge/MethodChallenge.iml" filepath="$PROJECT_DIR$/MethodChallenge/MethodChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OperatorChallenge/OperatorChallenge.iml" filepath="$PROJECT_DIR$/OperatorChallenge/OperatorChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpeedConverterChallenge/SpeedConverterChallenge.iml" filepath="$PROJECT_DIR$/SpeedConverterChallenge/SpeedConverterChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatementsWhiteSpacesIndentation/StatementsWhiteSpacesIndentation.iml" filepath="$PROJECT_DIR$/StatementsWhiteSpacesIndentation/StatementsWhiteSpacesIndentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch/Switch.iml" filepath="$PROJECT_DIR$/Switch/Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TylerFirstMethod/TylerFirstMethod.iml" filepath="$PROJECT_DIR$/TylerFirstMethod/TylerFirstMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learnprogramming.iml" filepath="$PROJECT_DIR$/.idea/learnprogramming.iml" />
+    </modules>
+  </component>
+</project>
