@@ -15,6 +15,32 @@ public class Main {
         locations.put(4, new Location(4, "You are in a valley beside a stream"));
         locations.put(5, new Location(5, "You are in the forest"));
 
+        locations.get(1).addExit("W", 2);
+        locations.get(1).addExit("E", 3);
+        locations.get(1).addExit("S", 4);
+        locations.get(1).addExit("N", 5);
+
+
+        locations.get(2).addExit("N", 5);
+
+
+        locations.get(3).addExit("W", 1);
+
+
+        locations.get(4).addExit("N", 1);
+        locations.get(4).addExit("W", 2);
+
+
+        locations.get(5).addExit("S", 1);
+        locations.get(5).addExit("W", 2);
+
+        Map<String, String> vocabulary = new HashMap<String, String>();
+        vocabulary.put("Quit", "Q");
+        vocabulary.put("NORTH", "N");
+        vocabulary.put("EAST", "E");
+        vocabulary.put("SOUTH", "S");
+        vocabulary.put("WEST", "W");
+
         int loc = 1;
         while(true) {
             System.out.println(locations.get(loc).getDescription());
@@ -22,9 +48,27 @@ public class Main {
                 break;
             }
 
-            loc = scanner.nextInt();
-            if(!locations.containsKey(loc)){
-                System.out.println("You cannot go in this direction");
+            Map<String, Integer> exits = locations.get(loc).getExits();
+            System.out.print("Available exists are ");
+            for(String exit: exits.keySet()){
+                System.out.print(exit + ", ");
+            }
+            System.out.println();
+
+            String direction = scanner.nextLine().toUpperCase();
+            if(direction.length() > 1) {
+                String[] words = direction.split(" ");
+                for (String word: words){
+                    if(vocabulary.containsKey(word)){
+                        direction = vocabulary.get(word);
+                    }
+                }
+            }
+
+            if(exits.containsKey(direction)){
+                loc = exits.get(direction);
+            }else {
+                System.out.println("You cannot go in that direction");
             }
         }
     }
